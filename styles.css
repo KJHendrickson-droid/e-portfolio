@@ -299,11 +299,17 @@ nav {
 
 /* FOOTER */
 
-
-.footer {
+footer {
   background-color: #242424;
 }
-  .footer__logo-img {
-    width: 70px;
-    height: 70px;
-  }
+
+.footer__row {
+  display: flex;
+  padding: 8% 0;
+}
+
+.footer__logo--img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
