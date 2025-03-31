@@ -334,7 +334,10 @@ footer {
 
 .footer__social--link,
 .footer__logo--popper {
-  
+}
+
+.footer__logo--popper {
+  position: absolute;
 }
 
 .footer__anchor {
